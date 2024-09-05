@@ -4,15 +4,15 @@
 
 # n=4                  *    
 #                      * *
-#              ****eeee*   *
+#              ****eeee* * *
 #         *    ****    * *
 #       * *    ****    *
-#     *   *eeee****
+#     * * *eeee****
 #       * *
 #         *
         
 
-n=4
+n=8
 
 for i in range(n//2):
     for j in range(3*n+n//2+1):
@@ -30,7 +30,7 @@ for i in range(1):
         print('e',end='')
     print('*',end='')
     for j in range(n//2-1):
-        print(' ',end='')
+        print('*',end='')
     print('*')
     
 for i in range(n//2):
@@ -51,7 +51,7 @@ for i in range(n//2):
 for i in range(1):
     print('*',end='')
     for j in range(n//2-1):
-        print(' ',end='')
+        print('*',end='')
     print('*',end='')
     for j in range(n):
         print('e',end='')
